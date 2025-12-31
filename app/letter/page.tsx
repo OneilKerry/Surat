@@ -17,7 +17,7 @@ export default function LetterPage() {
         "",
         "loveee youuuu, sayanggg kuuuu ❤️❤️❤️❤️❤️",
         "",
-        "— dari seseorang yang peduli",
+        "— dari seseorang yang selalu memikirkan mu",
       ].join("\n"),
     }),
     []
@@ -49,10 +49,10 @@ export default function LetterPage() {
       const ok = document.execCommand("copy");
       document.body.removeChild(ta);
 
-      setCopiedMsg(ok ? "Tersalin ✅" : "Gagal menyalin ❌");
+      setCopiedMsg(ok ? "Tersalin " : "Gagal menyalin");
       setTimeout(() => setCopiedMsg(""), 1500);
     } catch {
-      setCopiedMsg("Gagal menyalin ❌");
+      setCopiedMsg("Gagal menyalin");
       setTimeout(() => setCopiedMsg(""), 1500);
     }
   }
