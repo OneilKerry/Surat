@@ -17,7 +17,7 @@ export default function LetterPage() {
         "",
         "loveee youuuu, sayanggg kuuuu ❤️❤️❤️❤️❤️",
         "",
-        "— dari seseorang yang selalu memikirkan mu",
+        "— dari seseorang yang selalu memikirkan muu",
       ].join("\n"),
     }),
     []
