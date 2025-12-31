@@ -11,10 +11,11 @@ export default function LetterPage() {
     () => ({
       title: "Untuk Kamu",
       body: [
-        "Hai.",
-        "Aku cuma mau bilang: terima kasih sudah hadir dan bertahan sejauh ini.",
-        "Semoga hari-harimu lebih ringan, dan kalau lelah, istirahat ya.",
-        "Aku bangga sama kamu.",
+        "Haiiiiii val,",
+        "Akuu cuman mau bilang terimakasih sudah menjadi bagian sekaligus hadiah terindah bagi ku di tahun ini. Terima kasih atas perhatian, kesabaran, effort, kasih sayang yang kamu berikan, dan masih banyak lagiii tapi sekali lagi aku mau bilang terimakasih itu semua sangat berarti bagi kuuu, aku juga mau minta maaf kalo dari awal kita kenal hingga sekarang aku ada salah atau bikin kamu ga nyaman. Untuk kedepannya harapan ku kita bisa terus bersama bahkan untuk tahun-tahun yang selanjutnya dan aku harap kita bisa saling belajar dan tumbuh bersama melalui rintangan-rintangan yang bakal kita hadapi kedepannya semoga kita bisa melewati semua ituu aminnnn",
+        "aku beruntung bisa kenal kamuuu",
+        "",
+        "loveee youuuu, sayanggg kuuuu ❤️❤️❤️❤️❤️",
         "",
         "— dari seseorang yang peduli",
       ].join("\n"),
@@ -41,9 +42,6 @@ export default function LetterPage() {
           transition={{ duration: 0.5 }}
           style={{ marginBottom: 18, opacity: 0.9 }}
         >
-          <div style={{ fontSize: 14, letterSpacing: 1, textTransform: "uppercase" }}>
-            Surat Digital
-          </div>
         </motion.div>
 
         <motion.div
